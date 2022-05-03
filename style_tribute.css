@@ -1,0 +1,64 @@
+#main {
+  background-color: #d9d9d9;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+#main #title {
+  text-align: center;
+}
+#main .subPara {
+  text-align: center;
+}
+#main #img-div {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 200px;
+  padding-right: 200px;
+  clear: both;
+}
+#main #img-div img {
+  width: 100%;
+}
+#main #img-div #img-caption {
+  text-align: center;
+  padding-bottom: 16px;
+}
+#main #tribute-info {
+  text-align: center;
+}
+#main #tribute-info h3 {
+  margin: 50px;
+}
+#main #tribute-info ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+#main #tribute-info ul li {
+  margin: 16px 0;
+}
+#main .bottomPara p {
+  max-width: 545px;
+  margin: 0 auto 30px auto;
+  text-align: left;
+  font: italic;
+}
+#main .bottomPara p .secondLine {
+  text-align: left;
+}
+#main .footerText h3 {
+  text-align: center;
+}
+
+@media screen and (max-width: 1146px) {
+  body #main #img-div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/*# sourceMappingURL=style_tribute.css.map */

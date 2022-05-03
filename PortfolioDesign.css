@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+body header {
+  background-color: #be3144;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+body header ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin: 0px;
+  padding: 20px 0;
+}
+body header ul li {
+  list-style: none;
+}
+body header ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 20px 20px;
+  color: white;
+  font-weight: 700;
+}
+body header .headerlink:hover a {
+  color: #0e0f12;
+}
+body .midSection {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #000;
+  line-height: 1.4rem;
+  width: 100%;
+  height: 800px;
+}
+body .midSection .rap h1 {
+  color: white;
+  font-size: 70px;
+}
+body .midSection .rap h5 {
+  color: #be3144;
+  font-size: 25px;
+  font-style: italic;
+  margin: 2rem;
+}
+body .workArea {
+  background-color: #45567d;
+  padding-bottom: 50px;
+}
+body .workArea .heading {
+  text-align: center;
+  padding: 30px 0;
+  font-size: xx-large;
+  color: white;
+  font-style: italic;
+  text-decoration: underline;
+}
+body .workArea .projects {
+  display: flex;
+  justify-content: space-around;
+}
+body .workArea .projects a {
+  text-decoration: none;
+}
+body .workArea .projects a img {
+  vertical-align: bottom;
+}
+body .workArea .projects a .projectTitle {
+  text-align: center;
+  background-color: #303841;
+  color: white;
+  padding: 15px;
+  margin-top: 0;
+}
+body .contactArea {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #303841;
+  height: 450px;
+}
+body .contactArea .contact-header {
+  color: white;
+  font-size: 30px;
+}
+body .contactArea .contact-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .contactArea .contact-links a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+body .contactArea .contact-links a img {
+  margin-right: 5px;
+}
+body .contactArea .linkedin:hover, body .contactArea .gmail:hover, body .contactArea .github:hover {
+  transform: translateY(8px);
+  transition: all 0.5s;
+}
+body .footerline {
+  height: 100px;
+  background-color: #303841;
+}
+body .footerline hr {
+  height: 4px;
+  background-color: #be3144;
+  border: none;
+}
+
+@media screen and (max-width: 1200px) {
+  body .workArea .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .workArea .projects a {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  body header ul {
+    gap: 10px;
+  }
+  body header a {
+    font-size: 20px;
+  }
+  body .midSection {
+    height: 600px;
+  }
+  body .midSection .rap h1 {
+    font-size: 50px;
+  }
+  body .midSection .rap h5 {
+    font-size: 20px;
+  }
+  body .workArea .projects a img {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body header ul li a {
+    font-size: 25px;
+  }
+  body .midSection {
+    height: 600px;
+  }
+  body .midSection .rap h1 {
+    font-size: 40px;
+  }
+  body .midSection .rap h5 {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=PortfolioDesign.css.map */

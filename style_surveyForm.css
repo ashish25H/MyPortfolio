@@ -1,0 +1,107 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(./assets/image2.png);
+  background-color: rgba(106, 179, 243, 0.514);
+  background-size: cover;
+  padding: 0 24% 0 24%;
+  line-height: 1.4;
+}
+body #title {
+  text-align: center;
+}
+body #description {
+  text-align: center;
+}
+body #survey-form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(27, 27, 50, 0.9568627451);
+  color: white;
+  padding: 40px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+body #survey-form label {
+  font-size: 1.125rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+body #survey-form input[type=radio],
+body #survey-form input[type=select],
+body #survey-form input[type=email],
+body #survey-form input[type=text],
+body #survey-form input[type=number],
+body #survey-form input[type=submit] {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+body #survey-form select {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+body #survey-form .first,
+body #survey-form .second,
+body #survey-form .thired {
+  display: flex;
+}
+body #survey-form .first label,
+body #survey-form .second label,
+body #survey-form .thired label {
+  padding: 5px;
+}
+body #survey-form .fourth,
+body #survey-form .fifth,
+body #survey-form .six,
+body #survey-form .seven,
+body #survey-form .eight,
+body #survey-form .nine,
+body #survey-form .ten,
+body #survey-form .eleven,
+body #survey-form .twelve,
+body #survey-form .thirteen,
+body #survey-form .fourteen {
+  display: flex;
+  align-items: center;
+}
+body #survey-form .fourth lable,
+body #survey-form .fifth lable,
+body #survey-form .six lable,
+body #survey-form .seven lable,
+body #survey-form .eight lable,
+body #survey-form .nine lable,
+body #survey-form .ten lable,
+body #survey-form .eleven lable,
+body #survey-form .twelve lable,
+body #survey-form .thirteen lable,
+body #survey-form .fourteen lable {
+  margin-bottom: 0.5rem;
+  padding: 0 0 5px 5px;
+}
+body #survey-form #comment {
+  margin-top: 20px;
+  max-width: 100%;
+}
+body #survey-form input[type=submit] {
+  background-color: rgb(106, 243, 106);
+  margin-top: 50px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1350px) {
+  body {
+    padding: 0 20% 0 20%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body {
+    padding: 0 15% 0 15%;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    padding: 0 10% 0 10%;
+  }
+}
+
+/*# sourceMappingURL=style_surveyForm.css.map */
